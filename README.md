@@ -1,6 +1,5 @@
 # React Progress Bar
 ***
-#### A React component to display progress bar with thresholds and chanks of values
 #### A React component, that display a progress bar with thresholds and chanks of values.
 ![3 react progress bar with chanks and splits and color for each treshold](rpp.png)
 ## Install
