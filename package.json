@@ -1,6 +1,6 @@
 {
   "name": "react-line-progress-bar-steps",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "React progress line bar with steps and values by thresholds",
   "repository": {
     "type": "git",

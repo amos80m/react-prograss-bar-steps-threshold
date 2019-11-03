@@ -62,11 +62,7 @@ const StepsPrograssBar = ({
 
   const getChanks = () => ColorSetArr.map((chnk,i) => <div key={`pb_${i}`} style={getChankStyle(i,ColorSetArr.length)} >{precentageComponent(i, ColorSetArr)}</div>);
 
-  return (<div className="App">
-      <div className='p-wrap' style={pWrapStayle}>
-        {getChanks()}
-      </div>
-    </div>);
+  return (<div className='p-wrap' style={pWrapStayle}>{getChanks()}</div>);
 }
 
 export default StepsPrograssBar;

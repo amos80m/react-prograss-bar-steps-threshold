@@ -1,6 +1,7 @@
 # React Progress Bar
 ***
 #### A React component to display progress bar with thresholds and chanks of values
+#### A React component, that display a progress bar with thresholds and chanks of values.
 ![3 react progress bar with chanks and splits and color for each treshold](rpp.png)
 ## Install
 ```
@@ -34,6 +35,8 @@ ReactDOM.render(<div>
 | pTextStyle | Object | {} | give user style controll for text precantage |
 | firstElStyle | Object | {} | give user style controll for first chank |
 | lastElStyle | Object | {} | give user style controll for last chank |
+
+> Default chanks number is '5', colors prop is Array length if used will determen the chanks number.
 
 ## License
 rc-progress is released under the MIT license.
