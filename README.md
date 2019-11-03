@@ -19,13 +19,13 @@ ReactDOM.render(<div>
 ```
 ## API
 
-### props
+### props			
 			
 | name        | type           | default  | description |
-| ------------- |:-------------:| -----:| --------------:|
+| :------------- |:-------------:| :-----: | :-------------- |
 | showPrecentage | String | null | can get 'start' or 'end' ( display precentage number on the graph ) |
 | colors | Array | [] | default empty Array, if recived will determen the number of chanks and there colors |
-| colorSet | String | 'colorfull' | default color set - can be 'colorfull', 'warm', 'dark'. to make it work colors prop shuld be empty Array|
+| colorSet | String | 'colorfull' | default color set - can be 'colorfull', 'warm', 'dark'. to make it work **colors** prop shuld be empty Array|
 |partialValue | Number | 98 | the value of the precentage to be calculate |
 |totalValue | Number | 100 | the total amount from witch precentage will be taken |
 | isStepIncrese | Bool | false | default False, if true will start as a small chank and grow at the end |
