@@ -1,0 +1,50 @@
+{
+  "name": "react-line-progress-bar-steps",
+  "version": "0.0.1",
+  "description": "React progress line bar with steps and values by thresholds",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amos80m/react-prograss-bar-steps-threshold"
+  },
+  "keywords": [
+    "react",
+    "progress bar",
+    "react progress bar",
+    "risk lavel graph",
+    "progress bar treshold",
+    "progress bar split",
+    "progress bar chanks"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsp/node-caught/issues"
+  },
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.11.0"
+  },
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Amos Megidish",
+    "email": "amosos1980@gmail.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
