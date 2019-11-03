@@ -4,14 +4,14 @@
 ![3 react progress bar with chanks and splits and color for each treshold](rpp.png)
 ## Install
 ```
-npm i -S react-progress-bar-steps
+npm i -S react-line-progress-bar-steps
 ```
 ```
-yarn add react-progress-bar-steps
+yarn add react-line-progress-bar-steps
 ```
 ## Usage
 ```
-import StepsPrograssBar from 'react-progress-bar-steps';
+import StepsPrograssBar from 'react-line-progress-bar-steps';
 
 ReactDOM.render(<div>
 <StepsPrograssBar />
