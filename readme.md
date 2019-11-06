@@ -38,4 +38,4 @@ ReactDOM.render(<div>
 > Default chanks number is '5', colors prop is Array length if used will determen the chanks number.
 
 ## License
-rc-progress is released under the MIT license.
+released under the MIT license.
